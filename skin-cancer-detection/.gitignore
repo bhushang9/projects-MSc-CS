@@ -1,0 +1,9 @@
+# Model files
+*.h5
+*.tflite
+
+# Dataset
+dataset/
+
+# Notebooks checkpoints
+.ipynb_checkpoints/
