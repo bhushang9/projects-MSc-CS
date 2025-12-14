@@ -1,0 +1,13 @@
+# Trained models
+models/
+
+# Datasets
+Tomato Dataset/
+tomato_dataset/
+
+# User uploaded images
+static/uploaded/
+
+
+__pycache__/
+.ipynb_checkpoints/
