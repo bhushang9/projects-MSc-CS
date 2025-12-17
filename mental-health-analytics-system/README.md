@@ -75,10 +75,10 @@ Sentiment does not affect prediction (kept interpretable)
 Version 2 was created to fix limitations identified in the earlier experimental version:
 
 Removed in V2:
-❌ Bagging & Boosting ensembles
-❌ Over-engineered pipelines
-❌ Feature mismatch issues
-❌ Inference-time encoder failures
+- ❌ Bagging & Boosting ensembles
+- ❌ Over-engineered pipelines
+- ❌ Feature mismatch issues
+- ❌ Inference-time encoder failures
 
 Why they were removed:
 - They increased complexity without improving reliability
@@ -87,20 +87,20 @@ Why they were removed:
 - Reduced interpretability for academic evaluation
 
 Added in V2:
-✔ Stable feature alignment
-✔ Safe label encoding
-✔ Consistent scaling
-✔ Deployment-ready inference pipeline
+- ✔ Stable feature alignment
+- ✔ Safe label encoding
+- ✔ Consistent scaling
+- ✔ Deployment-ready inference pipeline
 
 ---
 
 ## ⚙️ Tech Stack
 
-Python 3.11
-Pandas, NumPy
-Scikit-learn
-TextBlob (NLP)
-Streamlit
-Joblib
+- Python 3.11
+- Pandas, NumPy
+- Scikit-learn
+- TextBlob (NLP)
+- Streamlit
+- Joblib
 
 ---
